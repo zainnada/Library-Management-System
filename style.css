@@ -1,0 +1,116 @@
+/*body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}*/
+
+/**/
+
+
+.admin-info {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.7); /* خلفية شفافة بسيطة */
+    padding: 8px 12px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.admin-info a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.admin-info a:hover {
+    color: red;
+}
+
+body {
+    background-image: url('img1.jpg'); /* Add background image */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Make background fixed when scrolling */
+    background-color: #f4f4f4; /* Fallback color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Optional: Add a semi-transparent overlay */
+/*
+.overlay {
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+*/
+/**/
+
+form {
+    margin: 20px auto;
+    width: 50%;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+    background: rgba(216, 191, 191, 0.822);
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    color: #f4f4f4;
+    text-shadow: 5px 5px 5px black;
+    -webkit-text-stroke: 0.5px black; /* Border color and thickness */
+
+}
+.a1{
+    padding: 10px;
+    background: rgba(216, 191, 191, 0.822); /* Black with 50% opacity */
+
+}
+
+
+
+
