@@ -4,7 +4,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "shehda_library_db";
+$dbname = "zain_library_db";
 
 // error of the socket
 $conn = new mysqli($servername, $username, $password, $dbname, 3306, '/var/run/mysqld/mysqld.sock'); // solution 1: assign the true socket file
