@@ -9,7 +9,7 @@ It allows you to **Create**, **Read**, **Update**, and **Delete** Books and Frie
 - Add new Books, Friends, and Borrows record.
 - Update existing Books and Friends.
 - Return the borrowed books.
-- Delete Books and Friends. (Make sure they don't have a records in Borrows table)
+- Delete Books and Friends.
 
 ## How to Run the Project:
 1. Copy the project files into your local server directory (e.g., `htdocs` for XAMPP).
@@ -18,12 +18,11 @@ It allows you to **Create**, **Read**, **Update**, and **Delete** Books and Frie
 4. Update the database connection in `db_connect.php` if needed:
    ```php
    $conn = mysqli_connect("localhost", "root", "", "zain_library_db");
-   // or
-   $conn = new mysqli("172.0.0.1", "root", "", "zain_library_db");
    
 ## Open the project in your browser:
 - http://localhost/library-managment-system/
 - http://localhost/your-folder-name/
 
 ## Notes:
-- Make sure Apache and MySQL are running before accessing the project.  
+- Make sure Apache and MySQL are running before accessing the project.
+- This project enforces referential integrity using foreign key constraints to prevent deleting records that are linked to active borrow entries.
