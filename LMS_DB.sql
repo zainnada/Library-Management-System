@@ -23,8 +23,8 @@ CREATE TABLE IF NOT EXISTS borrows (
     book_id INT NOT NULL,
     borrow_date DATETIME DEFAULT CURRENT_TIMESTAMP,
     return_date DATETIME DEFAULT NULL,
-    FOREIGN KEY (friend_id) REFERENCES friends(id),
-    FOREIGN KEY (book_id) REFERENCES books(id)
+    FOREIGN KEY (friend_id) REFERENCES friends(id) ON DELETE CASCADE,
+    FOREIGN KEY (book_id) REFERENCES books(id) ON DELETE CASCADE
 );
 
 --  Admin Table (Library Admin)
