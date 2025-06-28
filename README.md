@@ -1,6 +1,6 @@
 # Library managment system - PHP CRUD
 
-This is a simple web application built with PHP and MySQL to manage user records.
+This is a simple web application built with PHP and MySQL to manage the library records.
 It allows you to **Create**, **Read**, **Update**, and **Delete** Books and Friends data through a simple user interface.
 
 ## Features:
@@ -18,6 +18,8 @@ It allows you to **Create**, **Read**, **Update**, and **Delete** Books and Frie
 4. Update the database connection in `db_connect.php` if needed:
    ```php
    $conn = mysqli_connect("localhost", "root", "", "zain_library_db");
+   // or
+   $conn = new mysqli("127.0.0.1", $username, $password, $dbname);
    
 ## Open the project in your browser:
 - http://localhost/library-managment-system/
