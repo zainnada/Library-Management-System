@@ -19,7 +19,7 @@ It allows you to **Create**, **Read**, **Update**, and **Delete** Books and Frie
    ```php
    $conn = mysqli_connect("localhost", "root", "", "zain_library_db");
    // or
-   $conn = new mysqli("127.0.0.1", $username, $password, $dbname);
+   $conn = new mysqli("127.0.0.1", "root", "", "zain_library_db");
    
 ## Open the project in your browser:
 - http://localhost/library-managment-system/
